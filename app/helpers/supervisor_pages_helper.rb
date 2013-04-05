@@ -1,0 +1,2 @@
+module SupervisorPagesHelper
+end

@@ -1,0 +1,2 @@
+module RegularWorkerPagesHelper
+end

@@ -1,4 +1,32 @@
 DowCenter::Application.routes.draw do
+  get "admin_pages/home"
+
+  get "admin_pages/message"
+
+  get "admin_pages/worker_list"
+
+  get "lifeguard_pages/home"
+
+  get "lifeguard_pages/rules_and_protocols"
+
+  get "supervisor_pages/home"
+
+  get "supervisor_pages/rules_and_protocols"
+
+  get "regular_worker_pages/home"
+
+  get "regular_worker_pages/rules_and_protocols"
+
+  get "dow_worker_pages/schedule"
+
+  get "dow_center_pages/regular"
+
+  get "dow_center_pages/supervisor"
+
+  get "dow_center_pages/lifeguard"
+
+  get "dow_center_pages/admin"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

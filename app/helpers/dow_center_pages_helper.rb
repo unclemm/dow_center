@@ -1,0 +1,2 @@
+module DowCenterPagesHelper
+end
