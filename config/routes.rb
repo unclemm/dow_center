@@ -1,4 +1,10 @@
 DowCenter::Application.routes.draw do
+  
+
+  get "users/new"
+
+  root to: 'dow_center_pages#home'
+
   get "admin_pages/home"
 
   get "admin_pages/message"
