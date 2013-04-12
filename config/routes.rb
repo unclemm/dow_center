@@ -1,8 +1,12 @@
 DowCenter::Application.routes.draw do
+  resources :users
+  resources :sessions, only: [:new, :create, :destroy]
+ 
+ match '/signin', to: 'sessions#new'
+ match '/signout', to: 'sessions#destroy', via: :delete
   
-
-  get "users/new"
-
+ match '/signup', to: 'users#new'
+ 
   root to: 'dow_center_pages#home'
 
   get "admin_pages/home"
