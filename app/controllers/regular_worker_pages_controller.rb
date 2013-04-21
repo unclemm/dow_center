@@ -1,6 +1,7 @@
 require 'will_paginate/array'
 
 class RegularWorkerPagesController < ApplicationController
+  layout 'regularworker'
   def home
     
     @microposts = Micropost.all.paginate(page: params[:page])

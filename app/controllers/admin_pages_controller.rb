@@ -1,4 +1,5 @@
 class AdminPagesController < ApplicationController
+  layout 'admin'
   before_filter :signed_in_user, :admin_user
 
   def home

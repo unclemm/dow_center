@@ -1,6 +1,7 @@
 require 'will_paginate/array'
 
 class LifeguardPagesController < ApplicationController
+  layout 'lifeguard'
   def home
 
     @microposts = Micropost.all.paginate(page: params[:page])

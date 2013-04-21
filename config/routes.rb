@@ -14,7 +14,10 @@ DowCenter::Application.routes.draw do
   match '/admin', to: 'admin_pages#home'
   match '/message', to: 'admin_pages#message'
   match '/home', to: 'dow_center_pages#home'
-
+  
+  match '/reg_rules', to: 'regular_worker_pages#rules_and_protocols'
+  match '/sup_rules', to: 'supervisor_pages#rules_and_protocols'
+  match '/lg_rules', to: 'lifeguard_pages#rules_and_protocols'
 
 
 ##
