@@ -2,3 +2,15 @@
 <% provide(:subpage_title, "Home") %>
 <h1>SupervisorPages#home</h1>
 <p>Find me in app/views/supervisor_pages/home.html.erb</p>
+
+
+<div>
+  <% if Micropost.all.any? %>
+  
+  <h3> Posts (<%= Micropost.all.count %>)</h3>
+  <ol>
+    <%= render @microposts %>
+  </ol>
+   <%= will_paginate @microposts %>
+<% end %>
+</div>

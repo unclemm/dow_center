@@ -1,0 +1,30 @@
+0000000000000000000000000000000000000000 45a7419ce8dfbe604a2ccba06116e238d14e52c9 Hsiang Lin <hsiang.lin23@gmail.com> 1365156873 +0000	commit (initial): initial commit
+45a7419ce8dfbe604a2ccba06116e238d14e52c9 45a7419ce8dfbe604a2ccba06116e238d14e52c9 Hsiang Lin <hsiang.lin23@gmail.com> 1365157053 +0000	checkout: moving from master to modify-Gemfile
+45a7419ce8dfbe604a2ccba06116e238d14e52c9 45a7419ce8dfbe604a2ccba06116e238d14e52c9 Hsiang Lin <hsiang.lin23@gmail.com> 1365157103 +0000	checkout: moving from modify-Gemfile to master
+45a7419ce8dfbe604a2ccba06116e238d14e52c9 45a7419ce8dfbe604a2ccba06116e238d14e52c9 Hsiang Lin <hsiang.lin23@gmail.com> 1365157185 +0000	checkout: moving from master to controller-add
+45a7419ce8dfbe604a2ccba06116e238d14e52c9 f54488dfd9fb553c1bfcfb19494d40e5474dc428 Hsiang Lin <hsiang.lin23@gmail.com> 1365157656 +0000	commit: added controllers
+f54488dfd9fb553c1bfcfb19494d40e5474dc428 9e299bf9dd5697291d70a2d7c662f76154cbdb2d Hsiang Lin <hsiang.lin23@gmail.com> 1365189498 +0000	commit: put in controller
+9e299bf9dd5697291d70a2d7c662f76154cbdb2d 45a7419ce8dfbe604a2ccba06116e238d14e52c9 Hsiang Lin <hsiang.lin23@gmail.com> 1365189504 +0000	checkout: moving from controller-add to master
+45a7419ce8dfbe604a2ccba06116e238d14e52c9 9e299bf9dd5697291d70a2d7c662f76154cbdb2d Hsiang Lin <hsiang.lin23@gmail.com> 1365189539 +0000	merge controller-add: Fast-forward
+9e299bf9dd5697291d70a2d7c662f76154cbdb2d 9e299bf9dd5697291d70a2d7c662f76154cbdb2d Hsiang Lin <hsiang.lin23@gmail.com> 1365189590 +0000	checkout: moving from master to htmlstuff
+9e299bf9dd5697291d70a2d7c662f76154cbdb2d 34850e5395750a3669ed70d723d7d5cc9f6178c7 Hsiang Lin <hsiang.lin23@gmail.com> 1365574463 +0000	commit: html and made user model
+34850e5395750a3669ed70d723d7d5cc9f6178c7 9e299bf9dd5697291d70a2d7c662f76154cbdb2d Hsiang Lin <hsiang.lin23@gmail.com> 1365574475 +0000	checkout: moving from htmlstuff to master
+9e299bf9dd5697291d70a2d7c662f76154cbdb2d 34850e5395750a3669ed70d723d7d5cc9f6178c7 Hsiang Lin <hsiang.lin23@gmail.com> 1365574481 +0000	merge htmlstuff: Fast-forward
+34850e5395750a3669ed70d723d7d5cc9f6178c7 34850e5395750a3669ed70d723d7d5cc9f6178c7 Hsiang Lin <hsiang.lin23@gmail.com> 1365574585 +0000	checkout: moving from master to userstuff
+34850e5395750a3669ed70d723d7d5cc9f6178c7 ef711674f2fd597323047e22645d9108269054e4 Hsiang Lin <hsiang.lin23@gmail.com> 1365578915 +0000	commit: Make a basic user model
+ef711674f2fd597323047e22645d9108269054e4 34850e5395750a3669ed70d723d7d5cc9f6178c7 Hsiang Lin <hsiang.lin23@gmail.com> 1365578921 +0000	checkout: moving from userstuff to master
+34850e5395750a3669ed70d723d7d5cc9f6178c7 ef711674f2fd597323047e22645d9108269054e4 Hsiang Lin <hsiang.lin23@gmail.com> 1365578927 +0000	merge userstuff: Fast-forward
+ef711674f2fd597323047e22645d9108269054e4 ef711674f2fd597323047e22645d9108269054e4 Hsiang Lin <hsiang.lin23@gmail.com> 1365578967 +0000	checkout: moving from master to master
+ef711674f2fd597323047e22645d9108269054e4 ef711674f2fd597323047e22645d9108269054e4 Hsiang Lin <hsiang.lin23@gmail.com> 1365581924 +0000	checkout: moving from master to master
+ef711674f2fd597323047e22645d9108269054e4 ef711674f2fd597323047e22645d9108269054e4 Hsiang Lin <hsiang.lin23@gmail.com> 1365581945 +0000	checkout: moving from master to userlogin
+ef711674f2fd597323047e22645d9108269054e4 78689fe0cce3f018827db7ceb261c7fb302e31f0 Hsiang Lin <hsiang.lin23@gmail.com> 1365762837 +0000	commit: User stuff
+78689fe0cce3f018827db7ceb261c7fb302e31f0 ef711674f2fd597323047e22645d9108269054e4 Hsiang Lin <hsiang.lin23@gmail.com> 1365762846 +0000	checkout: moving from userlogin to master
+ef711674f2fd597323047e22645d9108269054e4 78689fe0cce3f018827db7ceb261c7fb302e31f0 Hsiang Lin <hsiang.lin23@gmail.com> 1365762873 +0000	merge userlogin: Fast-forward
+78689fe0cce3f018827db7ceb261c7fb302e31f0 8ad146e3c57d003f0712969d8670444afed1b0ac Hsiang Lin <hsiang.lin23@gmail.com> 1366353534 +0000	commit: admin stuff added
+8ad146e3c57d003f0712969d8670444afed1b0ac 8ad146e3c57d003f0712969d8670444afed1b0ac Hsiang Lin <hsiang.lin23@gmail.com> 1366353542 +0000	checkout: moving from master to master
+8ad146e3c57d003f0712969d8670444afed1b0ac 3cb85ee18ae33a1752c110d3e7f96475168c0024 Hsiang Lin <hsiang.lin23@gmail.com> 1366354000 +0000	commit: foo
+3cb85ee18ae33a1752c110d3e7f96475168c0024 3cb85ee18ae33a1752c110d3e7f96475168c0024 Hsiang Lin <hsiang.lin23@gmail.com> 1366356595 +0000	checkout: moving from master to master
+3cb85ee18ae33a1752c110d3e7f96475168c0024 3cb85ee18ae33a1752c110d3e7f96475168c0024 Hsiang Lin <hsiang.lin23@gmail.com> 1366356900 +0000	checkout: moving from master to master
+3cb85ee18ae33a1752c110d3e7f96475168c0024 70d356fa574e69fb308165572329c136c0b6b876 Hsiang Lin <hsiang.lin23@gmail.com> 1366357035 +0000	commit: .......
+70d356fa574e69fb308165572329c136c0b6b876 d878f3b62efbfa2b267041689eacff2f74453f7c Hsiang Lin <hsiang.lin23@gmail.com> 1366360930 +0000	commit: fix over written stuff
+d878f3b62efbfa2b267041689eacff2f74453f7c 6865ee8246676e3e75067d502c5580dc0e4a02ab Hsiang Lin <hsiang.lin23@gmail.com> 1366379836 +0000	commit: login working, booleans in place

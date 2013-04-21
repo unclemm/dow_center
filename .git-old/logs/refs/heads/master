@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 45a7419ce8dfbe604a2ccba06116e238d14e52c9 Hsiang Lin <hsiang.lin23@gmail.com> 1365156873 +0000	commit (initial): initial commit
+45a7419ce8dfbe604a2ccba06116e238d14e52c9 9e299bf9dd5697291d70a2d7c662f76154cbdb2d Hsiang Lin <hsiang.lin23@gmail.com> 1365189539 +0000	merge controller-add: Fast-forward
+9e299bf9dd5697291d70a2d7c662f76154cbdb2d 34850e5395750a3669ed70d723d7d5cc9f6178c7 Hsiang Lin <hsiang.lin23@gmail.com> 1365574481 +0000	merge htmlstuff: Fast-forward
+34850e5395750a3669ed70d723d7d5cc9f6178c7 ef711674f2fd597323047e22645d9108269054e4 Hsiang Lin <hsiang.lin23@gmail.com> 1365578927 +0000	merge userstuff: Fast-forward
+ef711674f2fd597323047e22645d9108269054e4 78689fe0cce3f018827db7ceb261c7fb302e31f0 Hsiang Lin <hsiang.lin23@gmail.com> 1365762873 +0000	merge userlogin: Fast-forward
+78689fe0cce3f018827db7ceb261c7fb302e31f0 8ad146e3c57d003f0712969d8670444afed1b0ac Hsiang Lin <hsiang.lin23@gmail.com> 1366353534 +0000	commit: admin stuff added
+8ad146e3c57d003f0712969d8670444afed1b0ac 3cb85ee18ae33a1752c110d3e7f96475168c0024 Hsiang Lin <hsiang.lin23@gmail.com> 1366354000 +0000	commit: foo
+3cb85ee18ae33a1752c110d3e7f96475168c0024 70d356fa574e69fb308165572329c136c0b6b876 Hsiang Lin <hsiang.lin23@gmail.com> 1366357035 +0000	commit: .......
+70d356fa574e69fb308165572329c136c0b6b876 d878f3b62efbfa2b267041689eacff2f74453f7c Hsiang Lin <hsiang.lin23@gmail.com> 1366360930 +0000	commit: fix over written stuff
+d878f3b62efbfa2b267041689eacff2f74453f7c 6865ee8246676e3e75067d502c5580dc0e4a02ab Hsiang Lin <hsiang.lin23@gmail.com> 1366379836 +0000	commit: login working, booleans in place

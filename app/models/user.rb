@@ -13,6 +13,8 @@
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :position, :password, :password_confirmation, :regular, :supervisor, :lifeguard
   has_secure_password
+  has_many :microposts, dependent: :destroy
+
 
   before_save { |user| user.email = email.downcase}
   before_save :create_remember_token

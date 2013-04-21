@@ -1,0 +1,47 @@
+commit 3cb85ee18ae33a1752c110d3e7f96475168c0024
+Author: Hsiang Lin <hsiang.lin23@gmail.com>
+Date:   Fri Apr 19 06:46:40 2013 +0000
+
+    foo
+
+commit 8ad146e3c57d003f0712969d8670444afed1b0ac
+Author: Hsiang Lin <hsiang.lin23@gmail.com>
+Date:   Fri Apr 19 06:38:54 2013 +0000
+
+    admin stuff added
+
+commit 78689fe0cce3f018827db7ceb261c7fb302e31f0
+Author: Hsiang Lin <hsiang.lin23@gmail.com>
+Date:   Fri Apr 12 10:33:57 2013 +0000
+
+    User stuff
+
+commit ef711674f2fd597323047e22645d9108269054e4
+Author: Hsiang Lin <hsiang.lin23@gmail.com>
+Date:   Wed Apr 10 07:28:35 2013 +0000
+
+    Make a basic user model
+
+commit 34850e5395750a3669ed70d723d7d5cc9f6178c7
+Author: Hsiang Lin <hsiang.lin23@gmail.com>
+Date:   Wed Apr 10 06:14:23 2013 +0000
+
+    html and made user model
+
+commit 9e299bf9dd5697291d70a2d7c662f76154cbdb2d
+Author: Hsiang Lin <hsiang.lin23@gmail.com>
+Date:   Fri Apr 5 19:18:18 2013 +0000
+
+    put in controller
+
+commit f54488dfd9fb553c1bfcfb19494d40e5474dc428
+Author: Hsiang Lin <hsiang.lin23@gmail.com>
+Date:   Fri Apr 5 10:27:36 2013 +0000
+
+    added controllers
+
+commit 45a7419ce8dfbe604a2ccba06116e238d14e52c9
+Author: Hsiang Lin <hsiang.lin23@gmail.com>
+Date:   Fri Apr 5 10:14:33 2013 +0000
+
+    initial commit

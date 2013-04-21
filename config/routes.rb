@@ -1,6 +1,7 @@
 DowCenter::Application.routes.draw do
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
+  resources :microposts, only: [:create, :destroy]
 
   match '/signin', to: 'session#new'
   match '/signout', to: 'session#destroy', via: :delete
@@ -11,7 +12,9 @@ DowCenter::Application.routes.draw do
   match '/supervisor', to: 'supervisor_pages#home'
   match '/regular', to: 'regular_worker_pages#home'
   match '/admin', to: 'admin_pages#home'
+  match '/message', to: 'admin_pages#message'
   match '/home', to: 'dow_center_pages#home'
+
 
 
 ##

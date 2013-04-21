@@ -9,6 +9,8 @@ namespace :db do
 				    password: "foobar",
 				    password_confirmation: "foobar", regular: reg, supervisor: superv, lifeguard: lg)
 		admin.toggle!(:admin)
+		admin.microposts.create!(content: "Testing from admin")
+
 
 	       User.create!(name: "Example User",
 	       			  email: "example@railstutorial.org",
