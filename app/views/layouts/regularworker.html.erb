@@ -2,14 +2,15 @@
 <html>
   <head>
     <title><%= full_title(yield(:title), yield(:subpage_title)) %></title>
-    <%= stylesheet_link_tag "application", media: "all" %>
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= stylesheet_link_tag "custom", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <%= render 'layouts/shim' %>
     </head>
   <body>
    <%= render 'layouts/regular_worker_header' %>
-   <div class="containter">
+   <div class="mainContainer">
      <%= yield %>
      </div>
    <%= render 'layouts/footer' %>
