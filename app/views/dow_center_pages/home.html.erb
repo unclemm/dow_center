@@ -1,3 +1,23 @@
 <% provide(:title, "Login") %>
-<h1> Please Login </h1>
-<p> blank </p>
+require
+
+
+<h1> Welcome! </h1>
+<% if signed_in? %>
+<% if current_user.admin?  %> 
+<%= link_to "Click here", admin_path %> for admin page. 
+<% end %>
+
+<% if current_user.regular %>
+<%= link_to "Click here", regular_path %> for Regular Worker page.
+<% end %>
+
+<% if current_user.supervisor %>
+<%= link_to "Click here", supervisor_path %> for Supervisor page.
+<% end %>
+
+<% if current_user.lifeguard %>
+<%= link_to "Click here", lifeguard_path %> for Lifeguard page.
+<% end %>
+
+<% end %>

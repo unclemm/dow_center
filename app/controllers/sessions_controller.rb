@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
     if user && user.authenticate(params[:session][:password])
       
       sign_in user
-      redirect_to user   #change here later to home?
+      redirect_to home_url   
       
       else
       
@@ -18,6 +18,8 @@ class SessionsController < ApplicationController
       end
 end
  
+
+  
   def destroy
     sign_out
     redirect_to root_url
