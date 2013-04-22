@@ -8,10 +8,14 @@
     <%= render 'layouts/shim' %>
     </head>
   <body>
-   <%= render 'layouts/supervisor_header' %>
+
    <div class="mainContainer">
+     <%= render 'layouts/supervisor_header' %>
+     <div class="container">
      <%= yield %>
      </div>
-   <%= render 'layouts/footer' %>
+     <%= render 'layouts/footer' %>
+     </div>
+
    </body>
   </html>

@@ -9,10 +9,14 @@
     <%= render 'layouts/shim' %>
     </head>
   <body>
-   <%= render 'layouts/regular_worker_header' %>
+   
    <div class="mainContainer">
+     <%= render 'layouts/regular_worker_header' %>
+     <div class="container">
      <%= yield %>
      </div>
-   <%= render 'layouts/footer' %>
+     <%= render 'layouts/footer' %>
+  </div>
+
    </body>
   </html>

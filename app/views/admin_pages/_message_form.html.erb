@@ -1,7 +1,13 @@
 <%= form_for @microposts do |f| %>
-  
   <div>
-    <%= f.text_area :content, placeholder: "Compose new message..." %>
+    <%= f.check_box :regular, {}, true, false %><span class="textstuff"> Regular Worker </span>
+    <%= f.check_box :supervisor, {}, true, false %><span class="textstuff"> Supervisor</span>
+    <%= f.check_box :lifeguard, {}, true, false %><span class="textstuff"> Lifeguard</span>
+
+    </div>
+  <div>
+    
+    <%= f.text_area :content, class: "messageBox", placeholder: "Compose new message..." %>
     </div>
   <%= f.submit "Send", class: "btn btn-large btn-primary" %>
 <% end %>

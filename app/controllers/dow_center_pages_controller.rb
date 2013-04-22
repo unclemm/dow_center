@@ -1,5 +1,5 @@
 class DowCenterPagesController < ApplicationController
-
+  before_filter :signed_in_user
   def regular
     
     redirect_to regular_url
@@ -24,5 +24,10 @@ class DowCenterPagesController < ApplicationController
     redirect_to admin_url
 
   end
+
+  private
+  def signed_in_user
+    redirect_to signin_url, notice: "Please sign in." unless signed_in?
+    end
 
 end

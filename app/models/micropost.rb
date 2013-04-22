@@ -1,5 +1,5 @@
 class Micropost < ActiveRecord::Base
-  attr_accessible :content
+  attr_accessible :content, :regular, :supervisor, :lifeguard, :allposition
   belongs_to :user
 
   validates :content, presence: true

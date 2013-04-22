@@ -4,7 +4,7 @@ class LifeguardPagesController < ApplicationController
   layout 'lifeguard'
   def home
 
-    @microposts = Micropost.all.paginate(page: params[:page])
+    @microposts = Micropost.find_all_by_lifeguard(true).paginate(page: params[:page])
 
   end
 

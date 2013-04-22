@@ -1,0 +1,146 @@
+@import "bootstrap";
+
+
+/* typography */
+
+h1 {
+   font-size: 3em;
+   letter-spacing: -2px;
+   margin-bottom: 30px;
+   text-align: center;
+   padding-top: 15px;
+}
+
+h2 {
+   font-size: 1.7em;
+   letter-spacing: -1px;
+   margin-bottom: 30px;
+   font-weight: normal;
+}
+
+h4 {
+   font-size: 1.7em;
+   font-weight: normal;
+}
+
+body {
+    background-color: #082042;
+     font-family: Helvetica, Arial, Tahama, sans-serif;
+}
+
+.mainContainer {
+    background-color: #FFF;
+    max-width: 950px;
+    min-width: 550px;
+    margin: auto;
+    margin-top: 40px;
+    height: auto;
+}
+
+.container {
+	   min-height: 700px;
+	   padding-left: 10px;
+}
+
+/* header */
+ #logo {
+ float: left;
+ margin-right: 10 px;
+ font-size: 1.7em;
+ color: #fff;
+ letter-spacing: -1px;
+ padding-top: 9px;
+ font-weight: bold;
+ line-height: 1;
+}
+
+/* microposts/message */
+  .microposts {
+   list-style: none;
+   margin: 10px 0 0 0;
+  
+   li {
+     padding: 10px 0;
+
+    }
+  }
+     
+  .content {
+  display: block;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  height: auto;
+  text-wrap: normal;
+ }
+
+ aside {
+ text_area {
+ height: 100px;
+ margin-bottom: 5px;
+ width: 100%;
+ }
+}     
+
+ .messageBox{
+ width: 99%;
+ margin-top: 10px;
+ padding: 0;
+ padding-left: 1%;
+
+}
+
+.checkbox_container input {
+		    vertical-align: bottom;
+		    display: inline;
+}
+
+.checkboxes label {
+	    display: block;
+	    float: left;
+	    padding-right: 10px;
+	    white-space: nowrap;
+}
+
+.checkboxes input {
+	    vertical-align: bottom;
+}
+
+.textstuff {
+line-height: 1.0em;
+	   display: inline-block;
+	    vertical-align:bottom;
+}
+
+/* footer */
+
+footer {
+       margin-top:45px;
+       padding-top: 5px;
+       border-top: 1px solid #eaeaea;
+       color: #999;
+       .footerContainer{
+	max-width:950px;
+	min-width: 550px;
+	}
+       a {
+       	 color:#555;
+       }
+       a:hover{
+        color: #FFF;
+	}
+
+	small {
+      	 float:left;
+	 }
+
+	 ul {
+	 float: right;
+       	 list-style: none;
+	 
+
+	  li {
+       	     float:left;
+             margin-left: 10px;
+	     }
+	     }
+}

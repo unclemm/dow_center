@@ -4,7 +4,7 @@ class SupervisorPagesController < ApplicationController
   layout 'supervisor'
   def home
 
-    @microposts = Micropost.all.paginate(page: params[:page])
+    @microposts = Micropost.find_all_by_supervisor(true).paginate(page: params[:page])
 
   end
 

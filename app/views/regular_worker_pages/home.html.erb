@@ -5,9 +5,10 @@
 
 
 <div>
-  <% if Micropost.all.any? %>
+  <% if Micropost.find_all_by_regular(true).any? %>
   <h3> Posts (<%= Micropost.all.count %>)</h3>
-  <ol>
+  <ol class="microposts">
+   
     <%= render @microposts %>
   </ol>
   <%= will_paginate @microposts %>
