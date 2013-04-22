@@ -1,6 +1,5 @@
 <% provide(:title, "Login") %>
 
-
 <h1> Welcome, <%= current_user.name %>! </h1>
 <div class="welcomeContainer">
 <% if signed_in? %>
@@ -20,4 +19,6 @@
 <h3><%= link_to "Click here", lifeguard_path %> for Lifeguard page.</h3>
 <% end %>
 </div>
+
+
 <% end %>

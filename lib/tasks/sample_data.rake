@@ -20,8 +20,11 @@ namespace :db do
 		 User.create!(name: "TestWorker",
 		             email: "test@test.org",
 			     position: 1,
+
 			     password: "password",
 			     password_confirmation: "password", regular: reg, supervisor: superv, lifeguard: lg)
 	
+
+
 		end
 		end
