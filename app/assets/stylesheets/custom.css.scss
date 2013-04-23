@@ -111,6 +111,44 @@ line-height: 1.0em;
 	    vertical-align:bottom;
 }
 
+.underlineBold{
+text-decoration:underline;	
+font-weight: bold;
+}
+
+.underline{
+	text-decoration:underline;
+}
+
+.subsectionTitle{
+margin-bottom: 1px;
+}
+
+h5 {
+   font-size: 20px;
+   text-transform:uppercase;
+   text-align: center;
+}
+
+.redtext {
+        color: #CC0000;
+}
+
+.bluetext {
+        color: #0080FF;
+}
+
+.orangetext{
+	color: #FF8000;
+}
+
+.darkred{
+	color: #660000;
+}
+
+.aligncenter{
+	text-align: center;
+}
 /* footer */
 
 footer {
