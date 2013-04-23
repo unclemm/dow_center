@@ -22,7 +22,7 @@ class AdminPagesController < ApplicationController
     end
   
   def admin_user
-    redirect_to home_url, notice: "Unathorized access." unless current_user.admin?
+    redirect_to home_url, notice: "Unauthorized access." unless current_user.admin?
     end
 
 end

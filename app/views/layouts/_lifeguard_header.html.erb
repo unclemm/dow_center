@@ -6,7 +6,7 @@
 	<ul class="nav pull-right">
 	  <li><%= link_to "Home", lifeguard_path %></li>
 	  <li><%= link_to "Rules/Protocol", lg_rules_path %></li>
-	  <li><%= link_to "Sign out", signout_path %></li>
+	  <li><%= link_to "Sign out", signout_path, method: 'delete'  %></li>
 	  </ul>
 	</nav>
     
